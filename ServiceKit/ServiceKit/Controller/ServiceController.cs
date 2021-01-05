@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ServiceKit.Contracts;
 
 namespace ServiceKit.Api.Controller
 {
@@ -9,7 +10,8 @@ namespace ServiceKit.Api.Controller
         public IActionResult GetService()
         {
             var service = new Service { ServiceId = 1, ServiceName = "ServiceName" };
-            return Ok(service);
+            var serviceResponse = new ServiceResponse() { ServiceId = service.ServiceId, ServiceName = service.ServiceName };
+            return Ok(serviceResponse);
         }
     }
 }

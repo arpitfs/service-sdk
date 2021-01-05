@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceKit.Api", "ServiceKit\ServiceKit.Api.csproj", "{CEB98045-06F3-4660-A8EB-9B3F2C3E210C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceKit.Contracts", "ServiceKit.Contracts\ServiceKit.Contracts.csproj", "{BA38390A-F177-40AD-AF0C-ABE24CA65114}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CEB98045-06F3-4660-A8EB-9B3F2C3E210C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB98045-06F3-4660-A8EB-9B3F2C3E210C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB98045-06F3-4660-A8EB-9B3F2C3E210C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA38390A-F177-40AD-AF0C-ABE24CA65114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA38390A-F177-40AD-AF0C-ABE24CA65114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA38390A-F177-40AD-AF0C-ABE24CA65114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA38390A-F177-40AD-AF0C-ABE24CA65114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
